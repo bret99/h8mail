@@ -831,7 +831,7 @@ class target:
 #        if user_query not in ["email"]:
 #            c.bad_news("Breachdirectory does not support this option")
 #            exit(1)
-        url = "https://breachdirectory.com/api_usage?method=email&key=a76083994ec573fb86661a6a2472df25&query={target}".format(target=self.target)
+        url = "https://breachdirectory.com/api_usage?method=email&key=BREACHDIRECTORY_API_KEY&query={target}".format(target=self.target)
         try:
             req = self.make_request(url, timeout=60)
             #if req.status_code == 200:
@@ -850,7 +850,7 @@ class target:
             #                self.data.append(("BREACHDR_IP", result["ip"]))
             #                self.data.append(("BREACHDR_IP", result["ip"]))
             #                self.pwned += 1
-            url_src = "https://breachdirectory.com/api_usage?method=email&key=a76083994ec573fb86661a6a2472df25&query={target}".format(target=self.target)
+            url_src = "https://breachdirectory.com/api_usage?method=email&key=BREACHDIRECTORY_API_KEY&query={target}".format(target=self.target)
             req = self.make_request(url_src, timeout=60)
             if req.status_code == 200:
                 response = req.json()
