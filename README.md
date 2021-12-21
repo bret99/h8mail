@@ -1,3 +1,5 @@
+It's a fork from https://github.com/khast3x/h8mail with correct setttings of Breachdirectory API (original has troubles to get correct response from one's API provided by not correct code).
+
 ## Features
 
 Email pattern matching (reg exp), useful for reading from other tool outputs
@@ -140,7 +142,7 @@ optional arguments:
 
 -----
 
-## :tangerine: Usage examples
+## Usage examples
 
 ###### Query for a single target
 
