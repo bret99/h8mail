@@ -74,13 +74,8 @@ def target_factory(targets, user_args):
                 #     current_target.get_emailrepio(api_keys["emailrep"])
 
         if api_keys is not None:
-            if (
-                "breachdirectory_user" in api_keys
-                and "breachdirectory_pass" in api_keys
-            ):
-                current_target.get_breachdirectory(
-                    api_keys["breachdirectory_user"], api_keys["breachdirectory_pass"], query
-                )
+            if "breachdirectory_api" in api_keys:
+                current_target.get_breachdirectory(api_keys["breachdirectory_api"])
             if "hibp" in api_keys and query == "email":
                 current_target.get_hibp3(api_keys["hibp"])
             if "emailrep" in api_keys and query == "email":
