@@ -60,10 +60,6 @@ Delicious colors
 | [IntelX.io](https://intelx.io/signup) - Service (free trial) | Cleartext passwords, hashs and salts, usernames, IPs, domain, Bitcoin Wallets, IBAN | :white_check_mark: :key: |
 | [Breachdirectory.tk](https://breachdirectory.tk) - Service (free) | Cleartext passwords, hashs and salts, usernames, domain | :white_check_mark: :key: |
 
-API key required*  
-
-
-
 
 -----
 
