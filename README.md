@@ -37,7 +37,7 @@ Delicious colors
 
 ---
 
-### `pip3 install h8mail`
+### `cd h8mail && python3 utils/run.py`
 
 -----
 
