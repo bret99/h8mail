@@ -22,8 +22,7 @@ def gen_config_file():
 ;dehashed_key =
 ;intelx_key =
 ;intelx_maxfile = 10
-;breachdirectory_user = 
-;breachdirectory_pass =
+;breachdirectory_api = 
 """
         dest_config.write(config)
         c.good_news(
