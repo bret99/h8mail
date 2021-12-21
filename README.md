@@ -1,6 +1,3 @@
-## :book: Table of Content
-
-- [Table of Content](#b
 ##  :tangerine: Features
 
 * :mag_right: Email pattern matching (reg exp), useful for reading from other tool outputs
