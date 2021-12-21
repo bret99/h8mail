@@ -1,38 +1,6 @@
-<h1 align="center">
-  <a href="https://github.com/khast3x/h8mail/releases/"><img src="https://i.postimg.cc/LXR6Jq8Y/logo-transparent.png" width="420" title="h8maillogo"></a>
-</h1>
-
-[![platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux%20%7C%20OSX-success.svg)](https://pypi.org/project/h8mail/) [![PyPI version](https://badge.fury.io/py/h8mail.svg)](https://badge.fury.io/py/h8mail)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/h8mail.svg)](https://pypi.org/project/h8mail/) [![Downloads](https://pepy.tech/badge/h8mail)](https://pepy.tech/project/h8mail)    [![travis](https://img.shields.io/travis/khast3x/h8mail.svg)](https://travis-ci.org/khast3x/h8mail)   
-[![Docker Pulls](https://img.shields.io/docker/pulls/kh4st3x00/h8mail.svg)](https://hub.docker.com/r/kh4st3x00/h8mail)    
-**h8mail** is an email OSINT and breach hunting tool using [different breach and reconnaissance services](#apis), or local breaches such as Troy Hunt's "Collection1" and the infamous "Breach Compilation" torrent.  
-
-----
-
-
-<h1 align="center">
-  <a href="https://github.com/khast3x/h8mail/wiki?ref=readmebutton"><img src="https://i.postimg.cc/htg6xGmm/button.png" width="420" title="To the Wiki!"></a>
-</h1>
-
-
-
-----
-
-
 ## :book: Table of Content
 
-- [Table of Content](#book-Table-of-Content)
-- [Features](#tangerine-Features)
-    - [APIs](#APIs)
-- [Usage](#tangerine-Usage)
-- [Usage examples](#tangerine-Usage-examples)
-- [Thanks & Credits](#tangerine-Thanks--Credits)
-- [Related open source projects](#tangerine-Related-open-source-projects)
-
-
-----
-
-
+- [Table of Content](#b
 ##  :tangerine: Features
 
 * :mag_right: Email pattern matching (reg exp), useful for reading from other tool outputs
