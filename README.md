@@ -1,6 +1,6 @@
 It's a fork from https://github.com/khast3x/h8mail with correct setttings of Breachdirectory API (original has troubles to get correct response from one's API provided by not correct code).
 
-One should substitute BREACHDIRECTORY_API_KEY for one's breachdirectory API key in lines 834 and 855 in classes.py.
+One should substitute BREACHDIRECTORY_API_KEY for one's breachdirectory API key in line 850 in classes.py.
 
 ## Features
 
