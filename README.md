@@ -1,20 +1,36 @@
 ## Features
 
 Email pattern matching (reg exp), useful for reading from other tool outputs
+
 Pass URLs to directly find and target emails in pages
+
 Loosey patterns for local searchs ("john.smith", "evilcorp")
+
 Painless install. Available through `pip`, only requires `requests`
+
 Bulk file-reading for targeting
+
 Output to CSV file or JSON
+
 Compatible with the "Breach Compilation" torrent scripts
+
 Search cleartext and compressed .gz files locally using multiprocessing
+
 Compatible with "Collection#1"
+
 Get related emails
+
 Chase related emails by adding them to the ongoing search
+
+
 Supports premium lookup services for advanced users
+
 Custom query premium APIs. Supports username, hash, ip, domain and password and more
+
 Regroup breach results for all targets and methods
+
 Includes option to hide passwords for demonstrations
+
 Delicious colors
 
 ---
