@@ -1,4 +1,4 @@
-This repository contains fixed python modules with correct working of Breachdirectory API (original ones have troubles to get correct response from Breachdirectory resource).
+This repository contains fixed python modules with correct working of Breachdirectory API (original ones have troubles with getting  correct response from Breachdirectory resource).
 
 One should:
 1. pip3 install h8mail;
