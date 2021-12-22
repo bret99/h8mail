@@ -39,7 +39,7 @@ Delicious colors
 
 ---
 
-### `cd h8mail && python3 utils/run.py`
+### `cd h8mail && python3 h8mail/utils/run.py`
 
 -----
 
