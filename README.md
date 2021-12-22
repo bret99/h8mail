@@ -1,6 +1,11 @@
-It's a fork from https://github.com/khast3x/h8mail with correct setttings of Breachdirectory API (original has troubles to get correct response from one's API provided by not correct code).
+This repository contains fixed python modules with correct settings of Breachdirectory API (original ones have troubles to get correct response from Breachdirectory API).
 
-One should substitute BREACHDIRECTORY_API_KEY for one's breachdirectory actual API key in line 850 in h8mail/utils/classes.py and uncomment generated h8mail_config.ini line with 'breachdirectory_api =' and insert breachdirectory actual API key. 
+One should:
+1. pip3 install h8mail;
+2. substitute classes.py "original" for classes.py from this repository;
+3. substitute BREACHDIRECTORY_API_KEY for one's breachdirectory actual API key in line 850 in h8mail/utils/classes.py (already substituted to correct one from this repository) and uncomment generated h8mail_config.ini line with 'breachdirectory_api =' and insert breachdirectory actual API key;
+4. substitute gen_config.py "original" for gen_config.py from this repository;
+5. substitute run.py "original" for run.py from this repository.
 
 ## Features
 
@@ -20,8 +25,6 @@ Compatible with the "Breach Compilation" torrent scripts
 
 Search cleartext and compressed .gz files locally using multiprocessing
 
-Compatible with "Collection#1"
-
 Get related emails
 
 Chase related emails by adding them to the ongoing search
@@ -38,10 +41,6 @@ Includes option to hide passwords for demonstrations
 Delicious colors
 
 ---
-
-### `cd h8mail && python3 h8mail/utils/run.py`
-
------
 
 
 ####  APIs
@@ -193,6 +192,3 @@ $ h8mail -t 42.202.0.42 -q ip -c h8mail_config_priv.ini -ch 2 --power-chase
 ```bash
 $ h8mail -u "https://pastebin.com/raw/kQ6WNKqY" "list_of_urls.txt"
 ```
-
-
------
